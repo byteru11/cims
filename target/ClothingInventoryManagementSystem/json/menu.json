@@ -1,0 +1,53 @@
+{
+	"status": 0,
+	"msg": "ok",
+	"data": [{
+			"id": 1,
+			"name": "系统管理",
+			"icon": "&#xe6b8;",
+			"url": "",
+			"children": [{
+				"id": 2,
+				"name": "用户管理",
+				"icon": "",
+				"url": "./user/findAll.do?page=1&size=4"
+			},{
+				"id": 3,
+				"name": "货号管理",
+				"icon": "",
+				"url": "./product/findAll.do?page=1&size=4"
+			},{
+				"id": 3,
+				"name": "仓库管理",
+				"icon": "",
+				"url": "./ware/findAll.do?page=1&size=4"
+			}]
+		},
+		{
+			"id": 11,
+			"name": "库存管理",
+			"icon": "&#xe723;",
+			"url": "",
+			"children": [
+				{
+					"id": 17,
+					"name": "库存",
+					"icon": "",
+					"url": "./reserve/findAll.do?page=1&size=4"
+				},
+				{
+					"id": 13,
+					"name": "入库管理",
+					"icon": "",
+					"url": "./invoice/findAll.do?page=1&size=4"
+				},
+				{
+					"id": 16,
+					"name": "出库管理",
+					"icon": "",
+					"url": "./out/findAll.do?page=1&size=4"
+				}
+			]
+		}
+	]
+}
