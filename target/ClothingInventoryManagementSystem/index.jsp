@@ -51,7 +51,7 @@
                     </dl>
                 </li>
                 <li class="layui-nav-item to-index">
-                    <a href="https://www.Google.com/" target="_blank">前台首页</a>
+                    <a href="https://github.com/byteru11/cims" target="_blank">前台首页</a>
                 </li>
             </ul>
 
